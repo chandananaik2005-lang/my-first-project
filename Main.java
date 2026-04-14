@@ -56,14 +56,50 @@
 // }
 
 //Even numbers
+// public class Main{
+//     public static void main(String[] args) {
+        
+//             for(int i=1;i<=20;i++){
+//                 if(i%2==0){
+//                     System.out.println(i);
+//                 }
+//             }
+        
+//     }
+// }
+
+
+//sum of odd numbers
+// public class Main{
+//     public static void main(String[] args)
+//     { int sum = 0;
+//         for(int i=1;i<=20;i++)
+//         {
+//             if(i%2!=0){
+//             sum=sum+i;
+//             }
+          
+//         }
+//        System.out.println(sum);
+//     }
+    
+// }
+
+// 
+
+
 public class Main{
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    { int count = 0;
+        for(int i=1;i<=30;i++)
+        {
+            if(i%3==0)
+            count++;
+        }
+            
+             System.out.println(count);
         
-            for(int i=1;i<=20;i++){
-                if(i%2==0){
-                    System.out.println(i);
-                }
-            }
-        
+      
     }
+    
 }
